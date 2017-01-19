@@ -1,7 +1,6 @@
 const express = require('express')
 const graphQLHTTP = require('express-graphql')
 const {
-  graphql,
   GraphQLObjectType,
   GraphQLInputObjectType,
   GraphQLString,
@@ -141,6 +140,7 @@ Header:
 Content-Type:application/json
 ****************************
 Body:
+****************************
 {
   "query": "query getUserByMail ($email: String) { customer: getUser (email:$email) { firstname lastname email } }",
   "operationName": "getUserByMail",
