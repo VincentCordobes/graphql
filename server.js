@@ -10,9 +10,9 @@ const {
 } = require('graphql')
 
 const datas = [{
-    firstname: 'John',
-    lastname: 'Doe',
-    email: 'john.doe@mail.com'
+    firstname: 'Vincent',
+    lastname: 'Cordobes',
+    email: 'vincent.cordobes@toto.fr'
   }, {
     firstname: 'Jane',
     lastname: 'Doe',
